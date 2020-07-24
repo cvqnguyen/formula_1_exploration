@@ -24,7 +24,7 @@ The EDA on the data was performed primarily using Jupyter Notebooks. There were 
 While analyzing what aspects of a race affect the outcomes the most, it was determined that the results.csv data table would be the most useful. Columns that were initially very useful were 'grid', 'rank', and 'positionOrder'. The table was masked to analyze the different parameters (e.g. 2nd starting position, or 4th fastest lap time) that were to be analyzed. 
 
 <p align="center">
-  <src="images/jointplot.png">
+  <img src="https://github.com/cvqnguyen/formula_1_exploration/blob/master/images/jointplot.png">
 </p>
 
 There seems to be a slight positive correlation for the starting position and the finishing position
