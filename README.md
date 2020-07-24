@@ -73,6 +73,7 @@ The distribution of finishing positions appears to be left skewed in both analys
 
 ![](images/meanfinish.png)
 
+The mean finishing position in terms of starting position was also plotted.
 
 ## Correlation Testing:
 ### Test 1: Pole position
@@ -119,6 +120,10 @@ Upon further research, the reasoning behind the fastest individual lap time not 
 
 While the driver with the most fast individual lap times(more consistency) is mathematically more inclined to win the race, the fastest overall lap is not stastically favored.
 
+## Conclusion
+The fastest qualifying lap proved to a strong indicator for success in a given F1 race. The null hypothesis of the pole position not having any effect on a race can be rejected. 
+
+The fastest raceday lap cannot be used as an indicator for success in a given F1 race. The null hypothesis of fastest lap not having any effect on a race cannot be rejected.
 
 ## Further Research
 
