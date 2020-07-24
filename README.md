@@ -61,6 +61,10 @@ The starting positions were masked and plotted against each other.
 
 ![](images/distribution.png)
 
+![](images/meanfinish.png)
+
+The mean finishing position in terms of starting position was also plotted.
+
 ![](images/fastestlaprankfinish.png)
 
 The fastest lap times were masked and plotted against each other.
@@ -69,9 +73,7 @@ The fastest lap times were masked and plotted against each other.
 
 The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
 
-![](images/meanfinish.png)
 
-The mean finishing position in terms of starting position was also plotted.
 
 ## Correlation Testing:
 ### Test 1: Pole position
