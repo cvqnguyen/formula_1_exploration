@@ -23,7 +23,9 @@ The EDA on the data was performed primarily using Jupyter Notebooks. There were 
 
 While analyzing what aspects of a race affect the outcomes the most, it was determined that the results.csv data table would be the most useful. Columns that were initially very useful were 'grid', 'rank', and 'positionOrder'. The table was masked to analyze the different parameters (e.g. 2nd starting position, or 4th fastest lap time) that were to be analyzed. 
 
-![](images/jointplot.png)
+<p align="center">
+  <src="images/jointplot.png">
+</p>
 
 There seems to be a slight positive correlation for the starting position and the finishing position
 
@@ -51,7 +53,7 @@ Type | Value
 
 The p-value was outputted to be 0.0 which can be assummed that the value was very low (< 0.01)
 
-## Goals
+## Further Research
 
-The goals are to determine what resources and factors increase or decrease the likelihood of winning a F1 race. Some of the factors to examine are pole positions, fastest laps, engine manufacturers, chassis manufacturers, and tire compositions, home country track advantage, among many others.
+The goals are to determine what resources and factors increase or decrease the likelihood of winning a F1 race. Some of the other factors to examine are engine manufacturers, chassis manufacturers, home country track advantage, driver age, among many others.
 
