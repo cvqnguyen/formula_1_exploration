@@ -24,8 +24,6 @@ The dataset came from Ergast which is a public API. There were SQL database dump
 * Seasons
 * Status
 
-http://ergast.com/mrd/db
-
 
 ## Questions
 
@@ -129,3 +127,5 @@ The fastest raceday lap cannot be used as an indicator for success in a given F1
 
 The goals are to determine what resources and factors increase or decrease the likelihood of winning a F1 race. Some of the other factors to examine are engine manufacturers, chassis manufacturers, home country track advantage, driver age, among many others.
 
+## Resources:
+https://ergast.com/mrd/
