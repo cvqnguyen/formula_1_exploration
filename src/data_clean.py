@@ -21,6 +21,8 @@ class DataClean(object):
 
 
 if __name__ == "__main__":
-    path = '~/documents/galvanize/capstones/formula_1_explorations/data/results.csv'
+    path = 'data/results.csv'
     cleaner = DataClean(path)
     cleaner.drop_pit_starts()
+
+    
