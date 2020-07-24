@@ -35,7 +35,9 @@ The fastest lap time for each driver and it's ranking amongst all the other driv
 <p align="center">
   <img src="https://github.com/cvqnguyen/formula_1_exploration/blob/master/images/jointplot.png">
 </p>
+
 A heatmap was created to show the density of finsihing positions in terms of starting positions('grid')
+
 ![](images/vioplot.png)
 
 There seems to be a slight positive correlation for the starting position and the finishing position
@@ -45,6 +47,8 @@ There seems to be a slight positive correlation for the starting position and th
 ![](images/distribution.png)
 
 ![](images/fastestlaprankfinish.png)
+
+![](images/distributionFastestlap.png)
 
 The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
 
@@ -77,9 +81,12 @@ Type | Value
  corr | 0.0618
  pvalue | 5.245E-21
 
- While the p-value for this test is low, the correlation of the rank and finishing position is also very low. Meaning there is a very weak correlation of the two value and the null hypothesis cannot be rejected.
+ While the p-value for this test is very low, the correlation of the rank and finishing position is also very low (< 0.1). There is a very weak correlation of the two values and the null hypothesis cannot be rejected.
 
- With using the population data instead of a sample population data, 
+## Discussion/Further Analysis
+Upon further research, the reasoning behind 
+
+
 
 ## Further Research
 
