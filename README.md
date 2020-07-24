@@ -103,9 +103,9 @@ Type | Value
  corr | 0.0618
  pvalue | 5.245E-21
 
- While the p-value for this test is very low, the correlation of the rank and finishing position is also very low (< 0.1). There is a very weak correlation of the two values and the null hypothesis cannot be rejected.
-
- Further testing: 
+ The p-value for this test is very low, the correlation of the rank and finishing position is also very weak (< 0.1) and does not indicate any signficance.
+ 
+ ## Further testing: 
  A pearson correlation test was performed on the mean values of the finish position in regards to the starting position.
 
  Type | Value
