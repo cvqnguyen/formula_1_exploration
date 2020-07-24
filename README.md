@@ -71,7 +71,7 @@ Type | Value
  corr | 0.442 
  pvalue | 0.0
 
-The p-value was outputted to be 0.0 which can be assummed that the value was very, very low, and coupled with a moderate correlation of .442, the null hypothesis can be rejected.
+The p-value returned was 0.0 which can be assummed that the value was very, very low, and coupled with a moderate correlation of .442, the null hypothesis can be rejected.
 
 ### Test 2: Fastest lap time
 H0: There is no relationship between fastest lap time and finishing position.
@@ -88,7 +88,9 @@ Type | Value
  While the p-value for this test is very low, the correlation of the rank and finishing position is also very low (< 0.1). There is a very weak correlation of the two values and the null hypothesis cannot be rejected.
 
 ## Discussion/Further Analysis
-Upon further research, the reasoning behind 
+Upon further research, the reasoning behind the fastest individual lap time not correlating with the overall success of the finsihing positiong, can be attributed to the fact that only the fastest lap of each driver is taken per race. The conditions of each lap are never the same. There are a myriad of factors that could have affected the driver during the moment they achieved the fastest lap (e.g. racing from behind, faster start lap speed, good tire management, headwind/tailwind or lackthereof, weather)
+
+While the driver with the most fastest individual lap times(more consistency) is mathematically more inclined to win the race, the fastest overall lap is not stastically favored.
 
 
 
