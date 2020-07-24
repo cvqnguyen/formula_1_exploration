@@ -52,7 +52,7 @@ The starting positions were masked and plotted against each other.
 
 The fastest lap times were masked and plotted against each other.
 
-![](images/distributionFastestlap.png)
+![](images/distributionFastestLap.png)
 
 The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
 
