@@ -44,9 +44,13 @@ There seems to be a slight positive correlation for the starting position and th
 
 ![](images/Finishesbytopten.png)
 
+The starting positions were masked and plotted against each other.
+
 ![](images/distribution.png)
 
 ![](images/fastestlaprankfinish.png)
+
+The fastest lap times were masked and plotted against each other.
 
 ![](images/distributionFastestlap.png)
 
