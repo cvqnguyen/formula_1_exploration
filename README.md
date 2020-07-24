@@ -16,7 +16,9 @@ http://ergast.com/mrd/db
 
 What makes for a successful driver? What is more important, the sitting pole position, or the overall fastest race lap?
 
-Before every race, drivers must run laps in the qualifying stage. The fastest lap in the qualifying stage determines their starting position for the actual race. 
+Before every race, drivers must run laps in the qualifying stage. The fastest lap in the qualifying stage determines their starting position for the actual race. While there is no silverware involved with polesitting (fastest qualifying time), is there an inherent advantage to starting first? 
+
+During every actual race, each drivers fastest lap times are compared to each other. While similar to how they are calculated during the qualfying stage, the stakes are very different in an in-race scenario. (In the qualifying period, not all dirvers are timing their qualifying laps at the same time, constantly pit stopping to change their tires and to make adjustments. In the actual race, all the drivers are driving at full speed.) The fastest lap is awarded with a bonus point in the overal drivers' and constructors' championship. Is there an an advantege to winning the fastest lap?
 
 
 ## Data Analysis
@@ -40,12 +42,15 @@ There seems to be a slight positive correlation for the starting position and th
 
 ![](images/Finishesbytopten.png)
 
+![](images/distribution.png)
+
 ![](images/fastestlaprankfinish.png)
 
 The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
 
+
 ## Correlation Testing:
-Test 1:
+### Test 1: Pole position
 H0: There is no relationship between starting position and finishing position.
 
 Ha: There is a relationship between starting positiong and finishing position.
@@ -60,7 +65,7 @@ Type | Value
 
 The p-value was outputted to be 0.0 which can be assummed that the value was very, very low, and coupled with a moderate correlation of .442, the null hypothesis can be rejected.
 
-Test 2:
+### Test 2: Fastest lap time
 H0: There is no relationship between fastest lap time and finishing position.
 
 Ha: There is a relationship between fastest lap time and finishing position.
@@ -73,6 +78,8 @@ Type | Value
  pvalue | 5.245E-21
 
  While the p-value for this test is low, the correlation of the rank and finishing position is also very low. Meaning there is a very weak correlation of the two value and the null hypothesis cannot be rejected.
+
+ With using the population data instead of a sample population data, 
 
 ## Further Research
 
