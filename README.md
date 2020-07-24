@@ -1,6 +1,7 @@
 # Formula 1 Exploration
 ![](images/f1header.jpg)
-For this capstone project, using a Formula 1 Racing dataset from 1950-present, different aspets will be compared in regards to race sucess. 
+
+For this capstone project, using a Formula 1 Racing dataset from 1950-present, different aspects will be compared in regards to race success. 
 
 ## Background
 
@@ -8,7 +9,21 @@ Formula racing is a widely popular form of motosport road racing. It requires th
 
 ## Dataset
 
-The dataset came from Ergast which is a public API. There were SQL database dumps provided, which contained over 13 data frames correlating with the entirety of the history of Formula 1 Racing. 
+The dataset came from Ergast which is a public API. There were SQL database dumps provided, which contained 13 data frames correlating with the entirety of the history of Formula 1 Racing. 
+
+* Circuits
+* Constructor Results
+* Constructors
+* Driver Standings
+* Drivers
+* Lap Times
+* Pit Stops
+* Qualifying
+* Races
+* Results
+* Seasons
+* Status
+
 http://ergast.com/mrd/db
 
 
@@ -36,11 +51,11 @@ The fastest lap time for each driver and it's ranking amongst all the other driv
   <img src="https://github.com/cvqnguyen/formula_1_exploration/blob/master/images/jointplot.png">
 </p>
 
-A heatmap was created to show the density of finsihing positions in terms of starting positions('grid')
+A heatmap was created to show the density of finsihing positions in terms of starting positions('grid').
 
 ![](images/vioplot.png)
 
-There seems to be a slight positive correlation for the starting position and the finishing position
+There seems to be a slight positive correlation for the starting position and the finishing position.
 
 ![](images/Finishesbytopten.png)
 
@@ -55,6 +70,8 @@ The fastest lap times were masked and plotted against each other.
 ![](images/distributionFastestLap.png)
 
 The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
+
+![](images/meanfinish.png)
 
 
 ## Correlation Testing:
@@ -87,11 +104,20 @@ Type | Value
 
  While the p-value for this test is very low, the correlation of the rank and finishing position is also very low (< 0.1). There is a very weak correlation of the two values and the null hypothesis cannot be rejected.
 
+ Further testing: 
+ A pearson correlation test was performed on the mean values of the finish position in regards to the starting position.
+
+ Type | Value
+---------|----------
+ corr | 0.986
+ pvalue | 1.503E-07
+
+
+
 ## Discussion/Further Analysis
 Upon further research, the reasoning behind the fastest individual lap time not correlating with the overall success of the finsihing positiong, can be attributed to the fact that only the fastest lap of each driver is taken per race. The conditions of each lap are never the same. There are a myriad of factors that could have affected the driver during the moment they achieved the fastest lap (e.g. racing from behind, faster start lap speed, good tire management, headwind/tailwind or lackthereof, weather)
 
-While the driver with the most fastest individual lap times(more consistency) is mathematically more inclined to win the race, the fastest overall lap is not stastically favored.
-
+While the driver with the most fast individual lap times(more consistency) is mathematically more inclined to win the race, the fastest overall lap is not stastically favored.
 
 
 ## Further Research
