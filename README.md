@@ -1,5 +1,5 @@
 # Formula 1 Exploration
-
+![](images/f1header.jpg)
 For this capstone project, using a Formula 1 Racing dataset from 1950-present, different aspets will be compared in regards to race sucess. 
 
 ## Background
@@ -25,6 +25,25 @@ While analyzing what aspects of a race affect the outcomes the most, it was dete
 
 ![](images/Finishesbytopten.png)
 
+![](images/fastestlaprankfinish.png)
+
+The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
+
+## Correlation Testing:
+Test 1:
+H0: There is no relationship between starting position and finishing position.
+
+Ha: There is a relationship between starting positiong and finishing position.
+
+The statistical test that was used was a Spearman Correlation Test.
+
+
+Type | Value
+---------|----------
+ corr | 0.442 
+ pvalue | 0.0
+
+The p-value was outputted to be 0.0 which can be assummed that the value was very low (< 0.01)
 
 ## Goals
 
