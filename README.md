@@ -41,11 +41,11 @@ The EDA on the data was performed primarily using Jupyter Notebooks. There were 
 
 While analyzing what aspects of a race affect the outcomes the most, it was determined that the results.csv data table would be the most useful. Columns that were initially very useful were 'grid', 'rank', and 'positionOrder'. The table was masked to analyze the different parameters (e.g. 2nd starting position, or 4th fastest lap time) that were to be analyzed. 
 
-The starting position for each driver is indicated by the value in the 'grid' column, in ascending rank (1 is the polesitter, or faster qualifier).
+* The starting position for each driver is indicated by the value in the 'grid' column, in ascending rank (1 is the polesitter, or faster qualifier).
 
-The finishing positiong for each driver is indicated by the value in the 'positionOrder' column. As not all drivers finish the race, the 'positionOrder' is usually determined after the race by the positioning of the rest of the drivers, and how early some drivers retired early (usually due to collisions or other car/engine problems)
+* The finishing position for each driver is indicated by the value in the 'positionOrder' column. As not all drivers finish the race, the 'positionOrder' is usually determined after the race by the positioning of the rest of the drivers, and how early some drivers retired early (usually due to collisions or other car/engine problems)
 
-The fastest lap time for each driver and it's ranking amongst all the other driver's fastest lap times is indicated by the column 'rank'.
+* The fastest lap time for each driver and it's ranking amongst all the other driver's fastest lap times is indicated by the column 'rank'.
 
 <p align="center">
   <img src="https://github.com/cvqnguyen/formula_1_exploration/blob/master/images/jointplot.png">
