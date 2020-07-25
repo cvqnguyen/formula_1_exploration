@@ -126,7 +126,7 @@ While the driver with the most fast individual lap times(more consistency) is ma
 ## Conclusion
 The fastest qualifying lap proved to a strong indicator for success in a given F1 race. The null hypothesis of the pole position not having any effect on a race can be rejected. 
 
-The fastest raceday lap cannot be used as an indicator for success in a given F1 race. The null hypothesis of fastest lap not having any effect on a race cannot be rejected.
+Due to its low correlation to the finishing position, the fastest raceday lap cannot be used as an indicator for success in a given F1 race. The null hypothesis of fastest lap not having any effect on a race cannot be rejected.
 
 ## Further Research
 
