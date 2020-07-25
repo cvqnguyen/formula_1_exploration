@@ -58,19 +58,19 @@ There seems to be a slight positive correlation for the starting position and th
 
 ![](images/Finishesbytopten.png)
 
-The starting positions were masked and plotted against each other.
+The starting positions were masked and plotted against each other and shows slight correlation with the starting position and the likelihood of winning the same race.
 
 ![](images/distribution.png)
 
-The distributions of the finishing positions for both pole position, and non pole positions were calculated and plotted.
+The distributions of the finishing positions for both pole position, and non pole positions were calculated and plotted. 
 
 ![](images/meanfinish.png)
 
-The mean finishing position in terms of starting position was also plotted.
+The mean finishing position in terms of starting position was also plotted and shows a slight lineal relationship.
 
 ![](images/fastestlaprankfinish.png)
 
-The fastest lap times were masked and plotted against each other.
+The fastest lap times were also masked and plotted against each other. The fastest lap and second fastest lap have a marginal difference when compared to the starting position plot.
 
 ![](images/distributionFastestLap.png)
 
