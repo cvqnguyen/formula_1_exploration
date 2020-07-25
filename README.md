@@ -132,5 +132,7 @@ Due to its low correlation to the finishing position, the fastest raceday lap ca
 
 The goals are to determine what resources and factors increase or decrease the likelihood of winning a F1 race. Some of the other factors to examine are engine manufacturers, chassis manufacturers, home country track advantage, driver age, among many others.
 
+Lewis Hamilton, who had driven for McClaren Mercedes with one drivers' champsionship before switching to Mercedes (a team with only 2 drivers' championships before he joined in their entire history), has won 5 champsionships since. Another aspect would to be able to explore how this happened.
+
 ## Resources:
 https://ergast.com/mrd/
