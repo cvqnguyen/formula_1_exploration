@@ -24,7 +24,7 @@ The dataset came from Ergast which is a public API. There were SQL database dump
 * Seasons
 * Status
 
-Due to the nature of Formula 1 and it's, different tracks, 'formula' changes through the years, it is difficult to make a lot of comparisons in regards to lap times, speed, and the races throughout a season, and against other seasons. 
+Due to the nature of Formula 1 and it's, different tracks, 'formula' changes through the years, it is difficult to make a lot of comparisons in regards to lap times, speed, the races throughout a season, and against other seasons. 
 
 ## Questions
 
