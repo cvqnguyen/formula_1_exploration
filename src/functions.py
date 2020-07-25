@@ -25,3 +25,8 @@ def plot_finishes(n, df, col):
     fig, ax = plt.subplots(figsize = (12,6))
     ax.scatter(count.index, count)
     return fig, ax
+
+#Funciton to calculate cdf of arrays
+
+def cdf(value, array):
+    return (array<value).sum()/len(array)
