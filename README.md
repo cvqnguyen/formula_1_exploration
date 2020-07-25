@@ -74,7 +74,7 @@ The fastest lap times were also masked and plotted against each other. The faste
 
 ![](images/distributionFastestLap.png)
 
-The distribution of finishing positions appears to be left skewed in both analyses for starting positions and fastest lap times. 
+The distribution of finishing positions appears to be right skewed in both analyses for starting positions and fastest lap times. 
 
 
 
